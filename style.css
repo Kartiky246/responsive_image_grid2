@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.watch{
+    height: 25px;
+}
+
+span{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:25px;
+}
+
+.view{
+    width:190px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 25px;;
+}
+
+.outer{
+    display: grid;
+   
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;    
+    padding: 150px;
+    column-gap: 9px;
+}
+
+
+.view{
+    margin-top:10px;
+    
+
+}
+
+@media screen and (max-width:950px){
+    .outer{
+        
+        grid-template-columns: auto auto;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width:600px){
+    .outer{
+        
+        grid-template-columns: auto;
+        
+    }
+    
+    
+}
